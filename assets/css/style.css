@@ -1,0 +1,296 @@
+/* section.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+    max-width: 1590px;
+    border-bottom: 1px solid rgba(0,0,0,.1);
+    padding-top: 5px;
+} */
+
+/* button.navbar-toggler {
+    display: none;
+}
+.collapse:not(.show) {
+    display: block;
+} */
+
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 1500px;
+}
+
+div#collapsibleNavbar {
+    padding-right: 20px;
+}
+
+.logo {
+    padding-left: 20px;
+}
+h1.app-heading {
+    font-size: 48px;
+    font-family: serif;
+    font-weight: 700;
+}
+
+p.app-text {
+    font-size: 23px;
+}
+
+section.app-detail-section {
+    padding-top: 78px;
+    padding-bottom: 100px;
+}
+
+section.service-wrapper.text-center {
+    padding-top: 90px;
+    padding-bottom: 90px;
+    background: #f2f3f7;
+}
+h2.service-heading {
+    font-size: 48px;
+    font-family: auto;
+}
+
+img.inner-image{
+    height: 80px;
+}
+p.service-type-text{
+    font-size: 22px;
+}
+
+h3.service-type-heading{
+    font-size: 24px;
+    margin-top: 20px;
+}
+
+button.started-button{
+    background: #391f70;
+    font-size: 15px;
+    color: #fff;
+    height: 50px;
+    border-radius: 20px;
+    width: 53%;
+    border-color: #391f70;
+}
+
+.service-inner {
+    background: #fff;
+    padding: 25px 13px;
+}
+
+.container.inner-wrapper {
+    margin-top: 50px;
+}
+.container.header-wrapper {
+    border-bottom: 2px solid;
+    border-color: #eee;
+}
+
+.container.header-wrapper {
+    display: flex;
+    justify-content: space-between;
+}
+
+.portfolio-wrapper{
+    padding-top: 80px;
+    padding-bottom: 80px;
+}
+
+h2.portfolio-heading{
+    font-size: 48px;
+    font-family: auto;
+}
+
+p.portfolio-text {
+    font-size: 24px;
+    line-height: 30px;
+}
+
+ul.carousel-indicators {
+    bottom: -50px;
+}
+.carousel-indicators li {
+    background-color: #040313;
+    width: 10px;
+    height: 10px;
+    border-radius: 80%;
+}
+
+.carousel-inner {
+    border: 11px solid rgb(102, 98, 98);
+}
+
+
+button.started-button.font-weight-bold.text-center.\31 23 {
+    display: none;
+}
+
+/* Responsive */
+
+@media (max-width: 575.98px){
+
+
+    img.menu-bar {
+        height: 35px;
+    }
+
+    button.navbar-toggler {
+        outline: none !important;
+    }
+
+    .text-xs-center{
+        text-align: center;
+    }
+
+
+.logo img {
+    max-height: 65px;
+}
+h1.app-heading.text-xs-center {
+    font-size: 25px;
+    text-align: center;
+}
+
+section.app-detail-section {
+    padding-top: 26px;
+    padding-bottom: 30px;
+}
+p.app-text {
+    font-size: 15px;
+    text-align: center;
+}
+
+
+button.started-button {
+    width: 170px;
+    height: 45px;
+}
+
+button.started-button.font-weight-bold.text-center.first {
+    display: none;
+}
+
+button.started-button.font-weight-bold.text-center.\31 23 {
+    display: initial;
+}
+
+section.service-wrapper.text-center {
+    padding-top: 25px;
+    padding-bottom: 7px;
+    background: #f2f3f7;
+}
+
+h2.service-heading {
+    font-size: 25px;
+    font-family: auto;
+}
+
+
+img.inner-image.d-block {
+    display: inline !important;
+}
+
+h3.service-type-heading {
+    font-size: 20px;
+    margin-top: 25px;
+}
+p.service-type-text {
+    font-size: 17px;
+    margin-bottom: 26px;
+}
+
+
+.service-inner {
+    margin: 10px;
+}
+
+.portfolio-wrapper {
+    padding-top: 20px;
+    padding-bottom: 20px;
+}
+
+h2.portfolio-heading {
+    font-size: 25px;
+
+}
+
+p.portfolio-text {
+    font-size: 14px;
+    line-height: 32px;
+}
+
+
+button.started-button.font-weight-bold.text-center {
+    display: none;
+}
+
+
+
+}
+
+
+@media (min-width: 768px) and (max-width: 1023px){
+
+    h1.app-heading.text-xs-center {
+        font-size: 30px;
+    }
+
+    p.app-text {
+        font-size: 18px;
+    }
+    h2.service-heading {
+        font-size: 30px;}
+
+    h3.service-type-heading {
+    font-size: 18px;}
+
+
+    p.service-type-text {
+        font-size: 17px;
+    }
+    .service-inner {
+        background: #fff;
+        margin: 10px;}
+
+    h2.portfolio-heading {
+    font-size: 30px; }
+    
+    
+    p.portfolio-text {
+        font-size: 16px;
+        line-height: 35px;
+    }
+}
+
+
+@media (min-width: 1024px) and (max-width: 1300px){
+
+    h1.app-heading {
+        font-size: 38px;
+    }
+
+    p.app-text {
+        font-size: 17px;
+    }
+
+    h3.service-type-heading {
+        font-size: 18px;}
+
+
+        p.service-type-text {
+            font-size: 15px;
+        }
+
+
+        p.portfolio-text {
+            font-size: 17px;
+            line-height: 35px;
+        }
+    
+        h2.portfolio-heading {
+            font-size: 32px;
+
+
+
+
+
+
+}
