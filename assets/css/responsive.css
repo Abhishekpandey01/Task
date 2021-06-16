@@ -108,6 +108,12 @@
 
     /* Header */
 
+
+    .container.header-wrapper {
+        display: flex;
+        justify-content: space-around;
+    }
+
     img.menu-bar {
         height: 35px;
     }
@@ -143,6 +149,7 @@ p.app-text {
 button.started-button {
     width: 170px;
     height: 45px;
+    margin-bottom: 20px;
 }
 
 button.started-button.font-weight-bold.text-center.first {
@@ -199,9 +206,9 @@ p.portfolio-text {
 }
 
 
-button.started-button.font-weight-bold.text-center {
+/* button.started-button.font-weight-bold.text-center {
     display: none;
-}
+} */
 
 /* Footer */
 
@@ -318,6 +325,8 @@ p.text-center.copyright {
         }
 
         }
+
+
 
 
 
