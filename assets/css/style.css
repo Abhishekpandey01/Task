@@ -123,3 +123,145 @@ button.started-button.font-weight-bold.text-center.\31 23 {
     display: none;
 }
 
+
+section.timeline {
+    padding-top: 100px;
+    padding-bottom: 0px;
+    background: #F2F3F7;
+}
+
+.container.line-wrapper {
+    padding-top: 50px;
+}
+h2.app-process-heading {
+    font-size: 45px;
+}
+
+p.app-process-text {
+    font-size: 20px;
+}
+
+
+.line-center{
+
+    position: absolute;
+    width: 93%;
+    height: 11px;
+    left: 20px;
+    
+    transform: translateY(-50%);
+    background: white;
+    border: 1px solid #e3e3e3;
+}
+
+.container.timeline-wrapper {
+    padding-top: 200px;
+}
+
+.timeline-content.d-flex {
+    justify-content: space-between;
+}
+
+
+.timeline-inner-part.one {
+
+    width: 7.66%;
+    position: relative;
+    min-height: 300px;
+    float: left;
+}
+
+.number-one{
+
+    position: absolute;
+    top: -8%;
+    left: 0px;
+    width: 45px;
+    height: 45px;
+    border-radius: 100%;
+    background: #fff;
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 42px;
+    box-shadow: 0px 2px 13px 0px rgb(0 0 0 / 30%);
+}
+
+
+.image-box {
+    width: auto;
+    position: absolute;
+    top: -50%;
+    left: -29px;
+    padding: 10px;
+}
+img.img-fluid.handshake {
+    height: 65px;
+}
+
+.timeline-inner-part.two{
+
+    width: 7.66%;
+    position: relative;
+    min-height: 300px;
+    float: left;
+}
+.image-box-one {
+    
+    position: absolute;
+    top: 15%;
+    left: -53px;
+    padding: 10px;
+}
+
+.image-box.Third {
+   
+    position: absolute;
+    top: -50%;
+    left: -69px;
+    padding: 10px;
+}
+
+.image-box-one.four {
+   
+    position: absolute;
+    top: 15%;
+    left: -36px;
+    padding: 10px;
+}
+
+.image-box-one.six {
+   
+    position: absolute;
+    top: 15%;
+    left: -56px;
+    padding: 10px;
+}
+p.design {
+    font-size: 15px;
+}
+
+/* footer */
+
+footer {
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.footer-content.d-flex {
+    justify-content: space-around;
+}
+
+footer {
+    padding-top: 50px;
+    padding-bottom: 50px;
+}
+
+h2.phone-number {
+    font-size: 21px;
+    font-weight: 400;
+}
+
+h2.e-mail {
+    font-size: 20px;
+    font-weight: 400;
+}

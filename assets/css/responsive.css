@@ -1,7 +1,112 @@
 /* Responsive */
 
-@media (max-width: 575.98px){
+@media (max-width: 575px){
 
+
+/* Time line section */
+
+
+.timeline-inner-part.two {
+    width: auto;
+    position: relative;
+    min-height: 125px;
+    float: left;
+}
+
+    .line-center {
+        position: absolute;
+        width: 9px;
+        height: 89%;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%,-50%);
+        background: white;
+        border: 1px solid #707070;
+    }
+
+
+    section.timeline {
+        padding-top: 15px;
+        padding-bottom: 50px;
+        background: #F2F3F7;
+        margin-top: 20px;
+    }
+
+    h2.app-process-heading {
+        font-size: 25px;
+    }
+
+    .timeline-content.d-flex {
+        flex-direction: column;
+    }
+
+    .container.timeline-wrapper {
+        padding-top: 0px;
+    }
+    .timeline-inner-part.one {
+        width: 100%;
+        position: relative;
+        min-height: 125px;
+    }
+
+    .number-one {
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        width: 45px;
+        transform: translate(-50%,-50%);
+        height: 45px;
+        border-radius: 100%;
+        background: #fff;
+        font-weight: 500;
+        font-size: 22px;
+        line-height: 42px;
+        box-shadow: 0px 2px 13px 0px rgb(0 0 0 / 30%);
+    }
+
+    .image-box {
+        width: auto;
+        position: absolute;
+        top: 21%;
+        left: 0%;
+        padding: 10px;
+    }
+
+    .image-box-one {
+        position: absolute;
+        top: 23%;
+        left: 55%;
+        padding: 10px;
+    }
+
+    .image-box.Third {
+       
+        position: absolute;
+        top: 12%;
+        left: -34px;
+        padding: 10px;
+    }
+
+    .image-box-one.four {
+        position: absolute;
+        top: 22%;
+        left: 55%;
+        padding: 10px;
+    }
+
+    .image-box-one.six {
+        position: absolute;
+        top: 22%;
+        left: 55%;
+        padding: 10px;
+    }
+
+    img.img-fluid.handshake {
+        height: 50px;
+    }
+
+
+    /* Header */
 
     img.menu-bar {
         height: 35px;
@@ -19,6 +124,7 @@
 .logo img {
     max-height: 65px;
 }
+
 h1.app-heading.text-xs-center {
     font-size: 25px;
     text-align: center;
@@ -97,6 +203,19 @@ button.started-button.font-weight-bold.text-center {
     display: none;
 }
 
+/* Footer */
+
+h2.e-mail {
+    font-size: 15px;
+}
+
+h2.phone-number {
+    font-size: 15px;
+}
+
+p.text-center.copyright {
+    font-size: 15px;
+}
 
 
 }
@@ -133,6 +252,40 @@ button.started-button.font-weight-bold.text-center {
         font-size: 16px;
         line-height: 35px;
     }
+
+    /* Timeline  */
+
+    .image-box.Third {
+        position: absolute;
+        top: -50%;
+        left: -50%;
+        padding: 10px;
+    }
+
+    .image-box-one {
+        position: absolute;
+        top: 10%;
+        left: -37%;
+        padding: 10px;
+    }
+
+
+    .image-box-one.four {
+        position: absolute;
+        top: 11%;
+        left: -19%;
+        padding: 10px;
+    }
+
+    .image-box-one.six {
+        position: absolute;
+        top: 10%;
+        left: -61%;
+        padding: 10px;
+    }
+
+
+
 }
 
 
@@ -162,10 +315,12 @@ button.started-button.font-weight-bold.text-center {
     
         h2.portfolio-heading {
             font-size: 32px;
+        }
+
+        }
 
 
 
 
 
 
-}
